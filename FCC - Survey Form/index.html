@@ -1,10 +1,12 @@
-<head>This is the Head!</head>
-<body>This is the body!</body>
-<form>
+<head></head>
+<body></body>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 <!-- title at the top-->
 <h1 id="title">Fill in the blank aka Survey Form via FCC</h1>
 <div id="form-outer">
+
+  <!--description-->
   <p id="description">
     Gimmie your info!
   </p>
@@ -18,7 +20,7 @@
   
       <!--how name looks-->
   <dive class="rightTab">
-    <input autofocus type="text" name="name" id="name" class="input field" placeholder = "Enter your name" required>
+    <input autofocus type="text" name="name" id="name" class="input field" placeholder="Enter your name" required>
     </div>
     </div>
     
@@ -30,10 +32,11 @@
   
   <!--how email looks-->
   <div class="rightTab">
-    <input type="email" name="email" id="email" class="input-field" required placeholder="enter your email" required>
+    <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your email" required>
   </div>
 </div>
 <br>
+
 <!-- age form-->
 <div class="rowTab">
   <div class="labels">
@@ -42,51 +45,46 @@
 
   <!--age form looks like-->
   <div class=rightTab>
-    <input number="number" name="age" id="number" min="1" max="125" class="input field"
+    <input type="number" name="age" id="number" min="1" max="125" class="input-field"
            placeholder="Age">
   </div>
 </div>
 <br>
+
 <!--dropdown form label-->
 <div class="rowTab">
   <div class="labels">
-    <label for=astrosign">Which sign are you?</label>
+    <label for="astrosign">Which sign are you?</label>
 </div>
                          
 <!--dropdown menu itself-->
 <div class="rightTab">
-    <select id="--dropdown" name="currentPos" class="--dropdown">
+    <select id="dropdown" name="currentPos" class="dropdown">
         <option disabled value>Select A Celestial Sign</option>
-        <option value="Libra">Libra</option>
-        <option value="Scorpio">Scorpio</option>
-        <option value="Taurus">Taurus</option>
-        <option value="Leo">Leo</option>
+        <option value="libra">Libra</option>
+        <option value="scorpio">Scorpio</option>
+        <option value="taurus">Taurus</option>
+        <option value="leo">Leo</option>
 
     </select>
 </div>
 </div>
 <br>
-<!--radio button label-->
+
+<!--radio button label
+  
 <div class="rowTab">
     <div class="labels">
         <label for="fitYourSign">* Do you feel like you fit your astro sign?</label>
     </div>
 
-<!--radio buttons-->
-<input type="radio" id="yes" name="fitYourSign" value="yes" checked>
-<label for="yes">Yes</label>
-</div>
-</div>
-<input type="radio" id="no" name="fitYourSign" value="yes">
-<label for="no">No</label>
-</div>
-<div></div>
-<input type="radio" id="sometimes" name="fitYourSign value="sometimes">
-<label for="sometimes">Sometimes</label>
-</div>
-<br>
-<br>
-<!--submit button-->
-<input id="submit" type="submit" value="Send Request">
+<div class="rightTab">
+  <ul style="list-style: none;">
+    <li class="radio"><label>Yes<input name="radio-buttons" value="1" type="radio" class="fitYourSign" ></label></li>
+    <li class="radio"><label>No<input name="radio-button" value="2" type="radio" class="fitYourSign"></label></li>
+    <li class="radio"><label>Sometimes<input name="radio-buttons" value="3" type="radio" class="fitYourSign"></label></li>
+    </ul>
+    </div>
+    </div>
 
-</form>
+   -->
