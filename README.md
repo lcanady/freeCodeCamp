@@ -1,2 +1,0 @@
-# freeCodeCamp
-My FreeCodeCamp Stuff
